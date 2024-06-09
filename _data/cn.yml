@@ -8,12 +8,12 @@ basic:
 contact:
   # meta
   location: 武汉, 中国 # location
-  email: shiftw@hust.edu.cn    # email address
-  phone: +86-181-7202-9686 # phone number
-  website: shiftw041.github.io/mypage/     # site URL
   nationality: 中共预备党员
   gender: 女                 # gender or pronoun
   wechat: Christ_002                  # username
+  email: shiftw@hust.edu.cn    # email address
+  phone: +86-181-7202-9686 # phone number
+  website: shiftw041.github.io/mypage/     # site URL
   github: shiftw041                  # username
 
 education:
@@ -21,15 +21,15 @@ education:
   order: 1
   title: 教育经历
   items:
-    - institution: 华中科技大学
-      link: #
-      date: 2021年09月 - 2025年07月
+    - institution: 华中科技大学网络空间安全学院
+      link: https://cse.hust.edu.cn/index.htm
+      date: 2021年09月 - 2025年06月
       major: 网络空间安全
       degree: 学士
       description: |
         GPA：4.43/5.00 , 专业排名：6/98 , 英语水平：CET-6 557 , csp能力认证：前7%
         
-        主修课程：微积分（94）, C语言程序设计（88）, 离散数学（100）, 数据结构（95）, 汇编语言程序设计（92）, 计算机网络（92）
+        **主修课程**：微积分（94）, C语言程序设计（88）, 离散数学（100）, 数据结构（95）, 汇编语言程序设计（92）, 计算机网络（92）
          , 计算机组成原理（88）, 编译原理（91）, 算法设计与分析（92）, 程序设计综合课程设计（96）
 
 award:
@@ -75,14 +75,14 @@ project:
 
     - name: 华中大-悉尼大学暑期学校——并行编程实践
       link: 
-      tags: [并行计算, OpenMP, MPI, CUDA]
+      #tags: [并行计算, OpenMP, MPI, CUDA]
       date: 2023年07月 - 2023年08月
       description: |
         学习了基础并行编程方法，利用OpenMP和MPI接口对共享存储和分布式存储并行计算机系统进行了编程和性能优化。了解了针对GPU设计的CUDA编程优化。掌握了并行优化算法设计的基本方法，并实现了基于OpenMP、MPI等方法的计算机性能优化。与传统方式相比，在矩阵运算等方面实现了2到4倍的性能提升。
 
     - name: 在校科研——联邦学习影像分割研究
       link: 
-      tags: [联邦学习, 影像分割, 量化感知训练]
+      #tags: [联邦学习, 影像分割, 量化感知训练]
       date: 2023年12月 - 至今
       description: |
         研究联邦学习影像分割的应用。针对模型结构复杂，计算代价高，难以直接部署在资源受限的医疗设备端侧等问题，探索并融
@@ -93,7 +93,7 @@ project:
         + 论文撰写中 预计投稿IEEE-BIBM（ccf-b）
     - name: 信息安全作品赛——基于神经网络的多元音频攻击检测
       link: 
-      tags: [信息安全, 神经网络, 音频攻击检测]
+      #tags: [信息安全, 神经网络, 音频攻击检测]
       date: 2024年03月 - 至今
       description: |
         设计并实现面向语音识别系统的多元音频攻击智能检测系统，在检测合成攻击、重放攻击和对抗攻击方面有着良好性能。
