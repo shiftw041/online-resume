@@ -13,44 +13,9 @@ contact:
   website: shiftw041.github.io/mypage/     # site URL without schema, like example.com, will automatically prepand "https://"
   political status: Probationary Member of the Communist Party of China
   gender:                  female # gender or pronoun
-  # birthday:                # birthday
-  # nationality:             # nationality
-  # visa:                    # passport visa
-  # drivinglicense:          # driving licence
-
-  # contact
   wechat:                  Christ_002 # username
-  # whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  # telegram:                # username          | https://t.me/username
-  # messenger:               # username          | https://m.me/username
-  # line:                    # lineid            | https://line.me/R/ti/p/@lineid
-  # viber:                   # username          | https://vb.me/username
-  # threema:                 # userid            | https://threema.id/userid
-
-  # programmer
   github:                  shiftw041 # username          | https://github.com/username
-  # gitlab:                  # username          | https://gitlab.com/username
-  # bitbucket:               # username          | https://bitbucket.com/username
-  # stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
-  # leetcode:                # username          | https://leetcode.com/username
-  # codeforces:              # username          | https://codeforces.com/profile/username
-  # codewars:                # username          | https://www.codewars.com/users/username
-  # codepen:                 # username          | https://codepen.io/username
-  # tryhackme:               # username          | https://tryhackme.com/p/username
 
-  # academic
-  # googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  # researchgate:            # username          | https://www.researchgate.net/profile/username
-  # kaggle:                  # username          | https://www.kaggle.com/username
-  # orcid:                   # id                | https://orcid.org/id
-  # figshare:                # name/id           | https://figshare.com/authors/name/id
-
-  # writer
-  # devto:                   # username          | https://dev.to/username
-  # medium:                  # username          | https://medium.com/@username
-  # wordpress:               # username          | https://username.wordpress.com
-  # blogger:                 # username          | https://username.blogspot.com
-  # wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
 education:
   show: true
   order: 1
@@ -62,67 +27,54 @@ education:
       major: Cyberspace Security
       degree: Bachelor
       description: |
-        Additional information for this institution.
-        + GPA: 4.43/5.00    Major Ranking: 6/98    English Level: CET-6 557    CSP Certification Top 7%
-        + Course: Calculus (94), C Language Programming (88), Discrete Mathematics (100), Data Structures (95), Assembly Language Programming (92), Computer Networks (92)
-        , Principles of Computer Organization (88), Principles of Compilers (91), Algorithm Design and Analysis (92)
-        , Comprehensive Course Design in Programming (96)
+        GPA: 4.43/5.00 , Major Ranking: 6/98 , English Level: CET-6 557 , CSP Certification: Top 7%
+        
+        Course: Calculus (94) , C Language Programming (88) , Discrete Mathematics (100) , Data Structures (95) , Assembly Language Programming (92) , Computer Networks (92)
+         , Principles of Computer Organization (88) , Principles of Compilers (91) , Algorithm Design and Analysis (92)
+         , Comprehensive Course Design in Programming (96)
         
 award:
   show: true
   order: 2
   title: Awards
-  description: |
-    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
-
-    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
-
-    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
-
   items:
     - name: China Collegiate Programming Contest (CCPC)
       awarder: Bronze Medal
       date: 2023
-      link: '#'
+      link: 
     - name: National Undergraduate Mathematical Modeling Competition, Hubei
       awarder: Third Prize
       date: 2023
-      link: '#'
+      link: 
     - name: Software Category, Lanqiao Cup Provincial Contest
       awarder: Second Prize
       date: 2023
-      link: '#'
+      link: 
     - name: National English Competition for College Students, Provincial Level
       awarder: Third Prize
       date: 2023
-      link: '#'
+      link: 
     - name: MathorCup University Mathematical Modeling Challenge
       awarder: Bronze Medal
       date: 2023
-      link: '#'
+      link: 
     - name: China Collegiate Programming Contest (CCPC)
       awarder: First Prize
       date: 2023
-      link: '#'
+      link: 
     - name: Huawei ICT Competition, Ascend AI Track, National Level
       awarder: First Prize
       date: 2024
-      link: '#'
+      link: 
       
 project:
   show: true
   order: 3
   title: Experience
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
   items:
-    - name: Innovative Entrepreneurship Training Project — Predicting Chip Packaging Test Termination Based on Diffusion Model
-      link: '#'
+    - name: Innovative Training Project — Predicting Chip Test Termination Based on Diffusion Model
+      link: 
       tags:
       date: 2023.03 - 2023.11
       description: |
@@ -136,14 +88,14 @@ project:
       description: |
         Learned basic parallel programming methods and implemented performance optimization for shared and distributed memory parallel computing systems using OpenMP or MPI interfaces, and CUDA programming optimization for GPU design.
     - name: On-Campus Research — Federated Learning for Medical Image Segmentation
-      link: '#'
+      link: 
       tags:
       date: 2023.12 - Present
       description: |
         Researched the application of federated learning in medical image segmentation, addressing issues of complex model structure and high computational cost.Explored and integrated Quantization Aware Training (QAT) for model compression and inference acceleration, reducing computational load to approximately one-fourth of the floating-point precision with minimal loss of accuracy.
         + The team is currently writing a paper expected to be submitted to IEEE-BIBM (CCF-B).
     - name: Information Security Competition — Multimodal Audio Attack Detection Based on Neural Networks
-      link: '#'
+      link: 
       tags:
       date: 2023.12 - Present
       description: |
@@ -154,15 +106,6 @@ skill:
   show: true
   order: 4
   title: Skills
-  description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
   items:
     - name: Python
       level: 3
@@ -172,6 +115,8 @@ skill:
       level: 3
     - name: Linux
       level: 4
+    - name: HTML & CSS
+      level: 3
     - name: English
       level: 3
 
