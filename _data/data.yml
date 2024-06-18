@@ -1,6 +1,6 @@
 basic:
   name: Wu Xuefei                      # name
-  title: Junior Student           # job title
+  title: Junior           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile1.png # avatar file path
@@ -10,11 +10,11 @@ contact:
   location: Wuhai, China # location
   email: shiftw@hust.edu.cn    # email address
   phone: +86-181-7202-9686 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: shiftw041.github.io/mypage/     # site URL without schema, like example.com, will automatically prepand "https://"
-  political status: Probationary Member of the Communist Party of China
-  gender:                  female # gender or pronoun
-  wechat:                  Christ_002 # username
-  github:                  shiftw041 # username          | https://github.com/username
+  website: shiftw041.github.io/site/about     # site URL without schema, like example.com, will automatically prepand "https://"
+  nationality: Probationary Member of the Communist Party of China # political status
+  gender: female # gender or pronoun
+  wechat: Christ_002 # username
+  github: shiftw041 # username          | https://github.com/username
 
 education:
   show: true
@@ -22,7 +22,7 @@ education:
   title: Education
   items:
     - institution: Huazhong University of Science and Technology
-      link: '#'
+      link: https://cse.hust.edu.cn/index.htm
       date: 2021 - 2025
       major: Cyberspace Security
       degree: Bachelor
@@ -31,7 +31,7 @@ education:
         
         Course: Calculus (94) , C Language Programming (88) , Discrete Mathematics (100) , Data Structures (95) , Assembly Language Programming (92) , Computer Networks (92)
          , Principles of Computer Organization (88) , Principles of Compilers (91) , Algorithm Design and Analysis (92)
-         , Comprehensive Course Design in Programming (96)
+         , Cyber Practice (96)
         
 award:
   show: true
@@ -46,24 +46,20 @@ award:
       awarder: Third Prize
       date: 2023
       link: 
-    - name: Software Category, Lanqiao Cup Provincial Contest
+    - name: Lanqiao Cup, Software Category,  Provincial Contest
       awarder: Second Prize
       date: 2023
       link: 
-    - name: National English Competition for College Students, Provincial Level
+    - name: National English Competition for College Students
       awarder: Third Prize
       date: 2023
       link: 
     - name: MathorCup University Mathematical Modeling Challenge
-      awarder: Bronze Medal
-      date: 2023
-      link: 
-    - name: China Collegiate Programming Contest (CCPC)
       awarder: First Prize
       date: 2023
       link: 
-    - name: Huawei ICT Competition, Ascend AI Track, National Level
-      awarder: First Prize
+    - name: Huawei ICT Competition, Ascend AI Track
+      awarder: Third Prize
       date: 2024
       link: 
       
@@ -73,35 +69,40 @@ project:
   title: Experience
   description: |
   items:
-    - name: Innovative Training Project — Predicting Chip Test Termination Based on Diffusion Model
+    - name: Innovative Entrepreneurship Training Project - Chip Packaging Test Termination Prediction Based on Diffusion Models
       link: 
       tags:
       date: 2023.03 - 2023.11
       description: |
-        Investigated the application of diffusion model algorithms in the EDA chip domain, improving fault diagnosis efficiency and quality by transforming test feedback into images.Designed machine learning algorithms combined with dynamic test termination prediction, using the Denoising Diffusion Implicit Model to expand the image dataset for training.
-        + Achieved higher accuracy and nearly 90% cost savings in test cost with the new scheme compared to the original one.
-        + Team contributed the paper "Translating Test Responses to Images for Test-termination Prediction via Multiple Machine Learning Strategies," submitted to ACM-TODEAS (CCF-B).
-    - name: HUST-University of Sydney Summer School — Parallel Programming Practice
+        Exploring the Application of Diffusion Model Algorithms in the EDA Chip Field. To improve the efficiency and quality of fault diagnosis, innovatively transform test feedback into images, design multiple machine learning algorithms combined with predictive dynamic termination of testing, and use the efficient diffusion model Denoising Diffusion Implicit Model (DDIM) to expand the image dataset for training.
+        + Implement DDPM, DDIM, and D3PM models on the existing chip circuit fault log-picture dataset, sample fault data pictures to supplement the original picture dataset, forming a new synthetic dataset.
+        + Train the yolo8n-cls model for test termination prediction classification tasks on both the original and synthetic datasets, compare and evaluate the two models, and verify the data augmentation effect. The results show that the new scheme has a higher accuracy rate than the original scheme, with an expected test cost saving of nearly 90%.
+        + The team's paper "Translating Test Responses to Images for Test-termination Prediction via Multiple Machine Learning Strategies" submitted to ACM-TODEAS (CCF-B).
+    - name: HUST ＆ USYD Summer School - Parallel Programming Practice
       link:
       tags: 
       date: 2023.07 - 2023.08
       description: |
-        Learned basic parallel programming methods and implemented performance optimization for shared and distributed memory parallel computing systems using OpenMP or MPI interfaces, and CUDA programming optimization for GPU design.
-    - name: On-Campus Research — Federated Learning for Medical Image Segmentation
+        Understand basic parallel programming methods, program and optimize the performance of shared memory and distributed memory parallel computer systems. Understand CUDA programming optimization designed for GPUs.
+        + Master the basic methods of parallel optimization algorithm design, and implement computer performance optimization based on methods such as OpenMP and MPI. Compared with traditional methods, achieve 2 to 4 times performance improvement in key issues such as matrix operations.
+    - name: Federated Learning Image Segmentation Research
       link: 
       tags:
       date: 2023.12 - Present
       description: |
-        Researched the application of federated learning in medical image segmentation, addressing issues of complex model structure and high computational cost.Explored and integrated Quantization Aware Training (QAT) for model compression and inference acceleration, reducing computational load to approximately one-fourth of the floating-point precision with minimal loss of accuracy.
-        + The team is currently writing a paper expected to be submitted to IEEE-BIBM (CCF-B).
-    - name: Information Security Competition — Multimodal Audio Attack Detection Based on Neural Networks
+        Research on medical image segmentation models. In response to the complex model structure, high computational cost, and difficulty in direct deployment on resource-constrained medical device terminals, explore and integrate Quantization-Aware Training (QAT) for model compression and inference acceleration, quantize the segmentation model to 8-bit, and reduce the computational volume to about 1/4 of the floating-point precision, significantly reducing the computational volume with almost no loss of accuracy.
+        + Explore the application of federated learning in multi-institutional tumor segmentation systems, integrate PET-CT dual-modality images for learning, introduce the self-attention LSA module and adversarial noise perturbation ANP module to optimize the training of federated learning models, and achieve a significant improvement compared to the baseline model.
+        + To address the issue of limited resources and computing power on edge devices, use Quantization-Aware Training to compress the model. Adopt asymmetric uniform quantization for weights, and the precision loss is smaller compared to the Post-Training Quantization (PTQ) method.
+        + The paper in preparation is expected to be submitted to IEEE-BIBM (CCF-B).
+    - name: Information Security Competition - Multi-element Audio Attack Detection Based on Neural Network
       link: 
       tags:
       date: 2023.12 - Present
       description: |
-        Designed and implemented an intelligent detection system for multimodal audio attacks in voice recognition systems, showing good performance in detecting synthetic, replay, and adversarial attacks.
-        + Developed an efficient voiceprint feature extraction and analysis system based on the residual network, integrating the Res2Net with the Squeeze-and-Excitation (SE) module.Achieved high accuracy and generalization in detecting synthetic and replay attacks with an EER of less than 1% using the international ASVSpoof dataset.
-        + Employed a generative adversarial network to construct a neural vocoder to rebuild voice waveforms, identifying adversarial samples with unknown attack methods, with an AUC of 99% on the VoxCeleb open-source dataset.
+        Design and implement an intelligent detection system for multi-element audio attacks facing voice recognition systems, which has good performance in detecting synthetic attacks, replay attacks, and adversarial attacks, is user-friendly, and supports multi-end access.
+        + In response to the vulnerability and complexity of the environment in voice spoofing attack recognition, develop an efficient voiceprint feature extraction and analysis system based on the residual network. Integrate the new residual network Res2Net with the squeeze-and-excitation SE module to capture key voice features in detail and deeply analyze the global characteristics of voice signals. Trained and tested on the international ASVSpoof dataset, it has higher accuracy and generalization than the baseline model in recognizing synthetic attacks and replay attacks, with an EER less than 1%.
+        + Use the generative adversarial network to construct a neural voice coder to reconstruct voice waveforms, and use the difference in ASV matching scores between the reconstructed audio and the original audio to identify adversarial samples of unknown attack methods. Tested on the VoxCeleb open source dataset, the AUC reaches 99%, with high recognition accuracy.
+        + The team's achievements have been selected for the finals of the National College Students' Information Security Competition.
 skill:
   show: true
   order: 4
@@ -116,7 +117,7 @@ skill:
     - name: Linux
       level: 4
     - name: HTML & CSS
-      level: 3
+      level: 2
     - name: English
       level: 3
 
