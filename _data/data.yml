@@ -102,7 +102,7 @@ project:
         Design and implement an intelligent detection system for multi-element audio attacks facing voice recognition systems, which has good performance in detecting synthetic attacks, replay attacks, and adversarial attacks, is user-friendly, and supports multi-end access.
         + In response to the vulnerability and complexity of the environment in voice spoofing attack recognition, develop an efficient voiceprint feature extraction and analysis system based on the residual network. Integrate the new residual network Res2Net with the squeeze-and-excitation SE module to capture key voice features in detail and deeply analyze the global characteristics of voice signals. Trained and tested on the international ASVSpoof dataset, it has higher accuracy and generalization than the baseline model in recognizing synthetic attacks and replay attacks, with an EER less than 1%.
         + Use the generative adversarial network to construct a neural voice coder to reconstruct voice waveforms, and use the difference in ASV matching scores between the reconstructed audio and the original audio to identify adversarial samples of unknown attack methods. Tested on the VoxCeleb open source dataset, the AUC reaches 99%, with high recognition accuracy.
-        + The team's achievements have been selected for the finals of the National College Students' Information Security Competition.
+        + The work have been submitted to the National College Students' Information Security Competition.
 skill:
   show: true
   order: 4
