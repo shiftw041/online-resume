@@ -1,6 +1,6 @@
 basic:
   name: Wu Xuefei                      # name
-  title: Junior           # job title
+  title: Senior           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile1.png # avatar file path
@@ -61,7 +61,15 @@ award:
     - name: Huawei ICT Competition, Ascend AI Track
       awarder: Third Prize
       date: 2024
+      link:
+    - name: RAICOM Robotics Developer Competition Programming Track
+      awarder: Second Prize
+      date: 2024
       link: 
+    - name: National College Students Information Security Competition Project Contest
+      awarder: Second Prize
+      date: 2024
+      link:
       
 project:
   show: true
@@ -88,7 +96,7 @@ project:
     - name: Federated Learning Image Segmentation Research
       link: 
       tags:
-      date: 2023.12 - Present
+      date: 2023.12 - 2024.05
       description: |
         Research on medical image segmentation models. In response to the complex model structure, high computational cost, and difficulty in direct deployment on resource-constrained medical device terminals, explore and integrate Quantization-Aware Training (QAT) for model compression and inference acceleration, quantize the segmentation model to 8-bit, and reduce the computational volume to about 1/4 of the floating-point precision, significantly reducing the computational volume with almost no loss of accuracy.
         + Explore the application of federated learning in multi-institutional tumor segmentation systems, integrate PET-CT dual-modality images for learning, introduce the self-attention LSA module and adversarial noise perturbation ANP module to optimize the training of federated learning models, and achieve a significant improvement compared to the baseline model.
@@ -97,12 +105,12 @@ project:
     - name: Information Security Competition - Multi-element Audio Attack Detection Based on Neural Network
       link: 
       tags:
-      date: 2023.12 - Present
+      date: 2024.03 - 2024.08
       description: |
         Design and implement an intelligent detection system for multi-element audio attacks facing voice recognition systems, which has good performance in detecting synthetic attacks, replay attacks, and adversarial attacks, is user-friendly, and supports multi-end access.
         + In response to the vulnerability and complexity of the environment in voice spoofing attack recognition, develop an efficient voiceprint feature extraction and analysis system based on the residual network. Integrate the new residual network Res2Net with the squeeze-and-excitation SE module to capture key voice features in detail and deeply analyze the global characteristics of voice signals. Trained and tested on the international ASVSpoof dataset, it has higher accuracy and generalization than the baseline model in recognizing synthetic attacks and replay attacks, with an EER less than 1%.
         + Use the generative adversarial network to construct a neural voice coder to reconstruct voice waveforms, and use the difference in ASV matching scores between the reconstructed audio and the original audio to identify adversarial samples of unknown attack methods. Tested on the VoxCeleb open source dataset, the AUC reaches 99%, with high recognition accuracy.
-        + The work have been submitted to the National College Students' Information Security Competition.
+        + The work has been awarded the second prize in the Information Security Competition.
 skill:
   show: true
   order: 4
