@@ -62,7 +62,7 @@ project:
   title: 研究经历
   description: |
   items:
-    - name: 创新创业训练项目——基于扩散模型的芯片封装测试终止预测
+    - name: 创新创业训练项目——芯片封装测试终止预测
       link: 
       #tags: [EDA, 机器学习, 图像处理]
       date: 2023年03月 - 2023年12月
